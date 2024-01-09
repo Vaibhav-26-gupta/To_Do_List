@@ -4,6 +4,7 @@ window.addEventListener('load', () => {
 	const list_el = document.querySelector("#tasks");
 
 	form.addEventListener('submit', (e) => {
+		e.preventDefault();
 
 		const task = input.value;
 
